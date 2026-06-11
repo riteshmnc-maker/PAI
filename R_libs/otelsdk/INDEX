@@ -1,0 +1,29 @@
+Collecting Telemetry Data
+                        Collecting Telemetry Data
+Environment Variables   Environment variables to configure otelsdk
+File Size Options       File Size Options
+Time Interval Options   Time Interval Options
+logger_provider_file    Logger provider to write log messages into a
+                        JSONL file.
+logger_provider_http    Logger provider to log over HTTP
+logger_provider_stdstream
+                        Logger provider to write to the standard output
+                        or standard error or to a file
+meter_provider_file     Meter provider to collect metrics in JSONL
+                        files
+meter_provider_http     Meter provider to send collected metrics over
+                        HTTP
+meter_provider_memory   In-memory meter provider for testing
+meter_provider_stdstream
+                        Meter provider to write to the standard output
+                        or standard error or to a file
+tracer_provider_file    Tracer provider to write traces into a JSONL
+                        file
+tracer_provider_http    Tracer provider to export traces over HTTP
+tracer_provider_memory
+                        In-memory tracer provider for testing
+tracer_provider_stdstream
+                        Tracer provider to write to the standard output
+                        or standard error or to a file
+with_otel_record        Record OpenTelemetry output, for testing
+                        purposes
