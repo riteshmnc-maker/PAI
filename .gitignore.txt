@@ -1,4 +1,4 @@
-R_libs/
+R_libs\
 .r-cache/
 .RData
 .Rhistory
