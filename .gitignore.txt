@@ -1,6 +1,6 @@
-R_libs/
-.r-cache/
-.RData
-.Rhistory
-shiny_stdout.log
-shiny_stderr.log
+/R_libs/
+/.r-cache/
+/.RData
+/.Rhistory
+/shiny_stdout.log
+/shiny_stderr.log
